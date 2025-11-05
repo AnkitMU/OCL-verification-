@@ -1,4 +1,4 @@
-# Hybrid OCL-to-SMT Framework Architecture
+# Hybrid Neural-Symbolic OCL Verification Framework  Architecture
 
 ## Overview
 
