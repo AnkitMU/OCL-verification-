@@ -308,7 +308,7 @@ solver.add(Rental_0_endDate > Rental_0_startDate)
 **Figure 4**: "Sentence Transformer Architecture"
 
 ```
-OCL Text → Tokenizer → BERT Encoder → Mean Pooling → Classification Head → Pattern
+OCL Text → Tokenizer → Sentence Encoder → Mean Pooling → Classification Head → Pattern
            (WordPiece)  (6 layers)      (384-dim)      (128 hidden)        (50 classes)
 ```
 
@@ -677,7 +677,7 @@ for i in range(n_branch):
 | Approach | Accuracy | Avg Confidence | Training Time | Inference Time |
 |----------|----------|----------------|---------------|----------------|
 | Rule-Based | 72.3% | N/A | 0s | 0.02s |
-| Generic BERT | 89.5% | 68.2% | 45min | 0.15s |
+| Generic BERT | 89.5% | 68.2% | 185min | 0.15s |
 | Template Matching | 65.8% | N/A | 0s | 0.01s |
 | **Ours (Domain-Adapted)** | **99.2%** | **87.5%** | **12min** | **0.12s** |
 
