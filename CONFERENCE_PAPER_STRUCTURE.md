@@ -164,8 +164,8 @@ solver.add(Rental_0_endDate > Rental_0_startDate)
 |----------|------|----------|---------|-------------------|-------------|
 | USE | Symbolic | Manual | ✗ | ✓ | Low |
 | OCL2FOL | Symbolic | Limited | ✗ | ✓ | Medium |
-| DeepSpec | Neural | N/A | ✓ | ✗ | High |
-| SpecMiner | Hybrid | 15 | ✗ | ✓ | Medium |
+| EMFtoCSP | Pure symbolic | N/A | ✗ | ✓ | Low |
+| Deep Specification Mining | Hybrid | 15 | ✗ | ✓ | Medium |
 | **Ours** | **Hybrid** | **50** | **✓** | **✓** | **High** |
 
 ### 2.5 Research Gap (0.25 pages)
