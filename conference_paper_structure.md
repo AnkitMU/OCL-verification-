@@ -1,6 +1,7 @@
 # Automated Generation of OCL Constraint Benchmarks with SMT-Based Verification
 
-Authors: [Redacted for Review]
+Authors: Ankit Jha
+
 
 Abstract
 We present an automated framework to generate research-grade OCL (Object Constraint Language) benchmarks across arbitrary metamodels (UML/Ecore), verified for satisfiability using SMT solving. Our key contribution is a universal→canonical pattern mapping layer with OCL rewriting (PatternMapperV2) that decouples high-level OCL idioms from solver-ready encodings. The system integrates a generic SMT encoder atop Z3, a coverage-driven generation engine, and a research feature pipeline including (i) metadata enrichment, (ii) UNSAT constraint generation by mutation, (iii) AST-based structural similarity, (iv) semantic similarity via dense embeddings, (v) implication detection, and (vi) manifest generation for downstream ML and tooling. Evaluation on standard domains shows high validity (≥90%) and diverse pattern coverage. We open-source a complete benchmark generation pipeline designed to support tool evaluation, reproducible experiments, and dataset creation for learning-based OCL.
