@@ -1,7 +1,7 @@
 # OCL Benchmark Generation Framework: Research Paper Structure
 ## Full 18-Page Conference Paper
 
-**Target Venue:** MODELS, ICSE, ASE, or FSE  
+**Target Venue:** STAF 2026  
 **Paper Type:** Full Research Paper  
 **Page Count:** 18 pages (including references)
 
